@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to the **Antigravity Awesome Skills** collection are documented in this file.
+All notable changes to the **OpenClaw Awesome Skills** collection are documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
@@ -144,7 +144,7 @@ This release significantly upgrades our 3D visualization capabilities with a com
 
 ### Contributors
 
-- **[@sickn33](https://github.com/sickn33)** - Podcast Generation & Azure skills sync (PR #74).
+- **[@direkturcrypto](https://github.com/direkturcrypto)** - Podcast Generation & Azure skills sync (PR #74).
 - **[@aro-brez](https://github.com/aro-brez)** - WeEvolve skill (Issue #75).
 
 ---
@@ -218,7 +218,7 @@ Integrates the full official Microsoft skills collection (129 skills) and Google
 
 ### Contributors
 
-- [@sickn33](https://github.com/sickn33) - Workflows architecture, docs, and release integration
+- [@direkturcrypto](https://github.com/direkturcrypto) - Workflows architecture, docs, and release integration
 
 ---
 
@@ -341,7 +341,7 @@ Integrates the full official Microsoft skills collection (129 skills) and Google
 
 ### Changed
 
-- **Documentation**: Clarified in README.md and GETTING_STARTED.md that installation means cloning the full repo once; Starter Packs are curated lists to discover skills by role, not a different installation method (fixes [#44](https://github.com/sickn33/antigravity-awesome-skills/issues/44)).
+- **Documentation**: Clarified in README.md and GETTING_STARTED.md that installation means cloning the full repo once; Starter Packs are curated lists to discover skills by role, not a different installation method (fixes [#44](https://github.com/direkturcrypto/openclaw-awesome-skills/issues/44)).
 
 ### Registry
 
@@ -431,7 +431,7 @@ Integrates the full official Microsoft skills collection (129 skills) and Google
 
 ### Contributors
 
-- [@sickn33](https://github.com/sickn33) - Voice AI Engine (PR #33)
+- [@direkturcrypto](https://github.com/direkturcrypto) - Voice AI Engine (PR #33)
 - [@community](https://github.com/community) - Categorization Initiative (PR #32)
 
 ## [3.3.0] - 2026-01-26 - "News & Research"
@@ -541,7 +541,7 @@ The following skills are now correctly indexed and visible in the registry:
 
 ### Contributors
 
-- [@sickn33](https://github.com/sickn33) - PR #23
+- [@direkturcrypto](https://github.com/direkturcrypto) - PR #23
 
 ## [2.12.0] - 2026-01-23 - "Enterprise & UI Power"
 

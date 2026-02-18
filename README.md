@@ -1,4 +1,4 @@
-# 🌌 Antigravity Awesome Skills: 864+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
+# 🌌 OpenClaw Awesome Skills: 864+ Agentic Skills for Claude Code, Gemini CLI, Cursor, Copilot & More
 
 > **The Ultimate Collection of 864+ Universal Agentic Skills for AI Coding Assistants — Claude Code, Gemini CLI, Codex CLI, Antigravity IDE, GitHub Copilot, Cursor, OpenCode, AdaL**
 
@@ -9,14 +9,14 @@
 [![Cursor](https://img.shields.io/badge/Cursor-AI%20IDE-orange)](https://cursor.sh)
 [![Copilot](https://img.shields.io/badge/GitHub%20Copilot-VSCode-lightblue)](https://github.com/features/copilot)
 [![OpenCode](https://img.shields.io/badge/OpenCode-CLI-gray)](https://github.com/opencode-ai/opencode)
-[![Antigravity](https://img.shields.io/badge/Antigravity-DeepMind-red)](https://github.com/sickn33/antigravity-awesome-skills)
+[![Antigravity](https://img.shields.io/badge/Antigravity-DeepMind-red)](https://github.com/direkturcrypto/openclaw-awesome-skills)
 [![AdaL CLI](https://img.shields.io/badge/AdaL%20CLI-SylphAI-pink)](https://sylph.ai/)
 [![ASK Supported](https://img.shields.io/badge/ASK-Supported-blue)](https://github.com/yeasy/ask)
-[![Buy Me a Book](https://img.shields.io/badge/Buy%20me%20a-book-d13610?logo=buymeacoffee&logoColor=white)](https://buymeacoffee.com/sickn33)
+[![Buy Me a Book](https://img.shields.io/badge/Buy%20me%20a-book-d13610?logo=buymeacoffee&logoColor=white)](https://buymeacoffee.com/direkturcrypto)
 
-If this project helps you, you can [support it here](https://buymeacoffee.com/sickn33) or simply ⭐ the repo.
+If this project helps you, you can [support it here](https://buymeacoffee.com/direkturcrypto) or simply ⭐ the repo.
 
-**Antigravity Awesome Skills** is a curated, battle-tested library of **864 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
+**OpenClaw Awesome Skills** is a curated, battle-tested library of **864 high-performance agentic skills** designed to work seamlessly across all major AI coding assistants:
 
 - 🟣 **Claude Code** (Anthropic CLI)
 - 🔵 **Gemini CLI** (Google DeepMind)
@@ -57,7 +57,7 @@ This repository provides essential skills to transform your AI assistant into a 
 
 ### 1. 🐣 Context: What is this?
 
-**Antigravity Awesome Skills** (Release 5.4.0) is a massive upgrade to your AI's capabilities.
+**OpenClaw Awesome Skills** (Release 5.4.0) is a massive upgrade to your AI's capabilities.
 
 AI Agents (like Claude Code, Cursor, or Gemini) are smart, but they lack **specific tools**. They don't know your company's "Deployment Protocol" or the specific syntax for "AWS CloudFormation".
 **Skills** are small markdown files that teach them how to do these specific tasks perfectly, every time.
@@ -70,7 +70,7 @@ Install once; then use Starter Packs in [docs/BUNDLES.md](docs/BUNDLES.md) to fo
 
    ```bash
    # Default path: ~/.agent/skills
-   npx antigravity-awesome-skills
+   npx openclaw-awesome-skills
    ```
 
 2. **Verify**:
@@ -134,61 +134,61 @@ To use these skills with **Claude Code**, **Gemini CLI**, **Codex CLI**, **Curso
 
 ```bash
 # Default: ~/.agent/skills (universal)
-npx antigravity-awesome-skills
+npx openclaw-awesome-skills
 
 # Cursor
-npx antigravity-awesome-skills --cursor
+npx openclaw-awesome-skills --cursor
 
 # Claude Code
-npx antigravity-awesome-skills --claude
+npx openclaw-awesome-skills --claude
 
 # Gemini CLI
-npx antigravity-awesome-skills --gemini
+npx openclaw-awesome-skills --gemini
 
 # Codex CLI
-npx antigravity-awesome-skills --codex
+npx openclaw-awesome-skills --codex
 
 # OpenCode
-npx antigravity-awesome-skills --path .agents/skills
+npx openclaw-awesome-skills --path .agents/skills
 
 # Custom path
-npx antigravity-awesome-skills --path ./my-skills
+npx openclaw-awesome-skills --path ./my-skills
 ```
 
-Run `npx antigravity-awesome-skills --help` for all options. If the directory already exists, the installer runs `git pull` to update.
+Run `npx openclaw-awesome-skills --help` for all options. If the directory already exists, the installer runs `git pull` to update.
 
 ### Option B: git clone
 
 ```bash
 # Universal (works with most tools)
-git clone https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+git clone https://github.com/direkturcrypto/openclaw-awesome-skills.git .agent/skills
 
 # Claude Code specific
-git clone https://github.com/sickn33/antigravity-awesome-skills.git .claude/skills
+git clone https://github.com/direkturcrypto/openclaw-awesome-skills.git .claude/skills
 
 # Gemini CLI specific
-git clone https://github.com/sickn33/antigravity-awesome-skills.git .gemini/skills
+git clone https://github.com/direkturcrypto/openclaw-awesome-skills.git .gemini/skills
 
 # Codex CLI specific
-git clone https://github.com/sickn33/antigravity-awesome-skills.git .codex/skills
+git clone https://github.com/direkturcrypto/openclaw-awesome-skills.git .codex/skills
 
 # Cursor specific
-git clone https://github.com/sickn33/antigravity-awesome-skills.git .cursor/skills
+git clone https://github.com/direkturcrypto/openclaw-awesome-skills.git .cursor/skills
 
 # OpenCode
-git clone https://github.com/sickn33/antigravity-awesome-skills.git .agents/skills
+git clone https://github.com/direkturcrypto/openclaw-awesome-skills.git .agents/skills
 ```
 
 ---
 
 ## Troubleshooting
 
-### `npx antigravity-awesome-skills` returns 404
+### `npx openclaw-awesome-skills` returns 404
 
 Use the GitHub package fallback:
 
 ```bash
-npx github:sickn33/antigravity-awesome-skills
+npx github:direkturcrypto/openclaw-awesome-skills
 ```
 
 ### Windows clone issues (symlinks)
@@ -196,7 +196,7 @@ npx github:sickn33/antigravity-awesome-skills
 This repository uses symlinks for official skills. Enable Developer Mode or run Git as Administrator, then clone with:
 
 ```bash
-git clone -c core.symlinks=true https://github.com/sickn33/antigravity-awesome-skills.git .agent/skills
+git clone -c core.symlinks=true https://github.com/direkturcrypto/openclaw-awesome-skills.git .agent/skills
 ```
 
 ### Skills installed but not detected by your tool
@@ -213,7 +213,7 @@ git -C ~/.agent/skills pull
 
 ```bash
 rm -rf ~/.agent/skills
-npx antigravity-awesome-skills
+npx openclaw-awesome-skills
 ```
 
 ---
@@ -327,7 +327,7 @@ Support is optional. This project stays free and open-source for everyone.
 
 If this repository saves you time or helps you ship faster, you can support ongoing maintenance:
 
-- [☕ Buy me a book on Buy Me a Coffee](https://buymeacoffee.com/sickn33)
+- [☕ Buy me a book on Buy Me a Coffee](https://buymeacoffee.com/direkturcrypto)
 
 Where support goes:
 
@@ -402,8 +402,8 @@ This collection would not be possible without the incredible work of the Claude 
 
 ## Repo Contributors
 
-<a href="https://github.com/sickn33/antigravity-awesome-skills/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=sickn33/antigravity-awesome-skills" />
+<a href="https://github.com/direkturcrypto/openclaw-awesome-skills/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=direkturcrypto/openclaw-awesome-skills" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
@@ -412,7 +412,7 @@ We officially thank the following contributors for their help in making this rep
 
 - [@sck000](https://github.com/sck000)
 - [@munir-abbasi](https://github.com/munir-abbasi)
-- [@sickn33](https://github.com/sickn33)
+- [@direkturcrypto](https://github.com/direkturcrypto)
 - [@Mohammad-Faiz-Cloud-Engineer](https://github.com/Mohammad-Faiz-Cloud-Engineer)
 - [@Dokhacgiakhoa](https://github.com/Dokhacgiakhoa)
 - [@IanJ332](https://github.com/IanJ332)
@@ -463,9 +463,9 @@ MIT License. See [LICENSE](LICENSE) for details.
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=sickn33/antigravity-awesome-skills&type=date&legend=top-left)](https://www.star-history.com/#sickn33/antigravity-awesome-skills&type=date&legend=top-left)
+[![Star History Chart](https://api.star-history.com/svg?repos=direkturcrypto/openclaw-awesome-skills&type=date&legend=top-left)](https://www.star-history.com/#direkturcrypto/openclaw-awesome-skills&type=date&legend=top-left)
 
-If Antigravity Awesome Skills has been useful, consider ⭐ starring the repo or [buying me a book](https://buymeacoffee.com/sickn33).
+If OpenClaw Awesome Skills has been useful, consider ⭐ starring the repo or [buying me a book](https://buymeacoffee.com/direkturcrypto).
 
 ---
 

@@ -4,7 +4,7 @@ const { spawnSync } = require('child_process');
 const path = require('path');
 const fs = require('fs');
 
-const REPO = 'https://github.com/sickn33/antigravity-awesome-skills.git';
+const REPO = 'https://github.com/direkturcrypto/openclaw-awesome-skills.git';
 const HOME = process.env.HOME || process.env.USERPROFILE || '';
 
 function resolveDir(p) {
@@ -50,9 +50,9 @@ function defaultDir(opts) {
 
 function printHelp() {
   console.log(`
-antigravity-awesome-skills — installer
+openclaw-awesome-skills — installer
 
-  npx antigravity-awesome-skills [install] [options]
+  npx openclaw-awesome-skills [install] [options]
 
   Clones the skills repo into your agent's skills directory.
 
@@ -66,10 +66,10 @@ Options:
   --tag <tag>      After clone, checkout this tag (e.g. v4.6.0)
 
 Examples:
-  npx antigravity-awesome-skills
-  npx antigravity-awesome-skills --cursor
-  npx antigravity-awesome-skills --version 4.6.0
-  npx antigravity-awesome-skills --path ./my-skills
+  npx openclaw-awesome-skills
+  npx openclaw-awesome-skills --cursor
+  npx openclaw-awesome-skills --version 4.6.0
+  npx openclaw-awesome-skills --path ./my-skills
 `);
 }
 

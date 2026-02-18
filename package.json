@@ -1,5 +1,5 @@
 {
-  "name": "antigravity-awesome-skills",
+  "name": "openclaw-awesome-skills",
   "version": "5.6.0",
   "description": "845+ agentic skills for Claude Code, Gemini CLI, Cursor, Antigravity & more. Installer CLI.",
   "license": "MIT",
@@ -20,10 +20,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sickn33/antigravity-awesome-skills.git"
+    "url": "git+https://github.com/direkturcrypto/openclaw-awesome-skills.git"
   },
   "bin": {
-    "antigravity-awesome-skills": "bin/install.js"
+    "openclaw-awesome-skills": "bin/install.js"
   },
   "files": [
     "bin"

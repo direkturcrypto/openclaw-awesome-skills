@@ -22,7 +22,7 @@ def update_readme():
 
     # 1. Update Title Count
     content = re.sub(
-        r"(# 🌌 Antigravity Awesome Skills: )\d+(\+ Agentic Skills)",
+        r"(# 🌌 OpenClaw Awesome Skills: )\d+(\+ Agentic Skills)",
         rf"\g<1>{total_skills}\g<2>",
         content,
     )

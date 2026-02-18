@@ -3,7 +3,7 @@ name: Bug Report
 about: Create a report to help us improve the skills
 title: "[BUG] "
 labels: bug
-assignees: sickn33
+assignees: direkturcrypto
 ---
 
 **Describe the bug**

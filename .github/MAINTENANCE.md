@@ -2,7 +2,7 @@
 
 > **"If it's not documented, it's broken."**
 
-This guide details the exact procedures for maintaining `antigravity-awesome-skills`.
+This guide details the exact procedures for maintaining `openclaw-awesome-skills`.
 It covers the **Quality Bar**, **Documentation Consistency**, and **Release Workflows**.
 
 ---
@@ -93,7 +93,7 @@ After multiple PR merges or significant changes:
     - **NO EMOJIS** in H2 headers.
 
 3.  **Draft a Release**:
-    - Go to [Releases Page](https://github.com/sickn33/antigravity-awesome-skills/releases).
+    - Go to [Releases Page](https://github.com/direkturcrypto/openclaw-awesome-skills/releases).
     - Draft a new release for the merged changes.
     - Tag version (e.g., `v4.1.0`).
 
@@ -142,7 +142,7 @@ Locations to check:
 
 ### E. Badges & Links
 
-- **Antigravity Badge**: Must point to `https://github.com/sickn33/antigravity-awesome-skills`, NOT `anthropics/antigravity`.
+- **Antigravity Badge**: Must point to `https://github.com/direkturcrypto/openclaw-awesome-skills`, NOT `anthropics/antigravity`.
 - **License**: Ensure the link points to `LICENSE` file.
 
 ### F. Workflows Consistency (NEW in V5)
@@ -208,7 +208,7 @@ When cutting a new version (e.g., V4):
 
     _Or manually via the GitHub UI > Releases > Draft a new release._
 
-5.  **Publish to npm** (so `npx antigravity-awesome-skills` works):
+5.  **Publish to npm** (so `npx openclaw-awesome-skills` works):
     - **Option A (manual):** From repo root, with npm logged in and 2FA/token set up:
       ```bash
       npm publish
